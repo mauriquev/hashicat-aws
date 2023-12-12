@@ -129,10 +129,6 @@ resource "aws_instance" "hashicat" {
   tags = {
     Name = "${var.prefix}-hashicat-instance"
   }
-  mandatory_tags = {
-    "Department",
-    "Billable",
-  }
   
 }
 
